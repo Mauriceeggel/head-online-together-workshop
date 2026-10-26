@@ -32,6 +32,7 @@ h2 {
 	color: #9a8413;
 }
 
+
 .house {
 	/* display: block; */
 	margin: auto;	
@@ -39,6 +40,22 @@ h2 {
 
 p {
 	color: #fbf8f8;
+}
+
+figcaption {
+	color: white;
+}
+
+.chut {
+	margin-top: 175px;
+}
+
+.secretaudio {
+	display: flex;
+  flex-direction: column; /* Organise les enfants en colonne */
+  justify-content: flex-end; /* Pousse l'élément tout en bas */
+  align-items: center; /* Centre horizontalement au milieu */
+  height: 50vh; /* Ajustez la hauteur selon votre besoin */
 }
 
 .link {
@@ -86,4 +103,12 @@ a {
 
 .centre-text {
 	text-align: center;
+}
+
+.secret {
+	height: 100%;
+  	margin: 0;
+	display: flex;
+  	justify-content: center; /* Centrage horizontal */
+  	align-items: center;     /* Centrage vertical */
 }
