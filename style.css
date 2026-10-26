@@ -1,0 +1,89 @@
+/* this is a CSS comment */
+
+/* here, we change some of the default styles on our main document elements */
+html, body {
+	margin: 0;
+	background-color: rgb(35, 122, 83);
+	min-height: 100vh;
+}
+
+@media(max-width: 767px) {
+	html, body {
+		background-color: #ffff00;
+	}
+}
+
+@font-face {
+	font-family: BPdots;
+	src: url(./BPdots.woff);
+}
+
+body {
+	font-family: BPdots;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: #9a8413;
+}
+
+.house {
+	/* display: block; */
+	margin: auto;	
+}
+
+p {
+	color: #fbf8f8;
+}
+
+.link {
+	background-color: #ffffff; 	
+ 	color: #000000;            	/* Couleur du texte */
+  	padding: 10px 80px;          	/* Espacement autour du texte */
+  	border-radius: 40px;   			/* Arrondi des angles (optionnel) */
+	box-shadow: 2px 5px 20px rgb(0, 0, 0);
+	transition: color 0.3s;
+	margin: 10px;
+	display:inline-block
+}
+.link:hover {
+	color:#00eeff
+}
+
+.wow {
+	border-radius: 50%;
+}
+
+
+a {
+	color: #00eeff;
+}
+
+.page2back {
+	background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHB1d2R5aDkzeWRwYnh0MzJ6Y3V5dm90eDdjbWY4NDVtdTVvY3YwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3RMpFu3ul2nK6lojbt/giphy.gif);
+	background-size:auto;
+}
+
+.la-phrase {
+	font-family: BPdots;
+	color: rgb(251, 255, 4);
+	font-size: 30px;
+	text-wrap: balance;
+	text-align: center;
+}
+
+.silly-text {
+	font-family: fantasy;
+	color: #fbf8f8;
+	font-size: 25px;
+	text-wrap: balance;
+}
+
+.centre-text {
+	text-align: center;
+}
